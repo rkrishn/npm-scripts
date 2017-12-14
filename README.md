@@ -1,4 +1,4 @@
-# npm-scripts for windows
+# useful modules and npm-scripts for windows
 
 # Watch a perticular Js file and perform some action 
 
@@ -22,3 +22,15 @@
  "dev":"webpack --config webpack.config.dev.js --watch",
  ```
  
+ # Node module to generate unique id 
+
+https://github.com/kelektiv/node-uuid
+
+ ```
+ npm install node-uuid
+ 
+ usage
+ 
+ import { v4 } from  'uuid/v4'
+ 
+ ```
