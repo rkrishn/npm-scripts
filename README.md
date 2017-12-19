@@ -37,5 +37,5 @@ https://github.com/kelektiv/node-uuid
 #Git push with username and password
 
 ```
-git push https://username:password@github.com/rkrishn/React-Webpack-boilerplate.git
+git push https://username:password@github.com/username/repo.git
 ```
