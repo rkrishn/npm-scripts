@@ -34,3 +34,8 @@ https://github.com/kelektiv/node-uuid
  import { v4 } from  'uuid/v4'
  
  ```
+#Git push with username and password
+
+```
+git push https://username:password@github.com/rkrishn/React-Webpack-boilerplate.git
+```
