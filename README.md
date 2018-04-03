@@ -39,3 +39,12 @@ https://github.com/kelektiv/node-uuid
 ```
 git push https://username:password@github.com/username/repo.git
 ```
+
+# Do this if Git checkout does not work
+
+```
+git remote update
+git fetch 
+git checkout --track origin/<BRANCH-NAME>
+
+```
