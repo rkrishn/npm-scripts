@@ -1,5 +1,12 @@
 # useful modules and npm-scripts for windows
 
+# Don't want to download a node module which is already available globally do this
+
+```
+npm config set link -g
+
+```
+
 # Watch a perticular Js file and perform some action 
 
 ```
