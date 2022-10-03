@@ -55,3 +55,23 @@ git fetch
 git checkout --track origin/<BRANCH-NAME>
 
 ```
+
+# useful git commands for daily use
+
+```
+git checkout -b branchname
+git commit -nm "message"
+git reset --soft HEAD~number
+git pull --rebase origin master
+git rebase --continue
+git rebase --abort
+git commit --amend --no-edit
+
+```
+
+# update package json through command
+
+```
+npm version patch -m "message"
+
+```
